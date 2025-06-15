@@ -14,20 +14,20 @@ test
 
 ## 报名时间
 
-- 报名开始时间：2025-06-242025-06-17
-- 报名结束时间：2025-06-282025-06-24
+- 报名开始时间：2025-06-17
+- 报名结束时间：2025-06-24
 
 ## 共学时间
 
-- 共学开始时间：2025-07-012025-06-25
-- 共学结束时间：2025-07-082025-07-16
+- 共学开始时间：2025-07-01
+- 共学结束时间：2025-07-08
 
 ## 发起人
 
-- 姓名：Muxin001Muxin
-- GitHub ID：muxin-web3muxin-web3
-- Telegram：muxin_ethmuxin_eth
-- Email：muxin333333@gmail.commuxin333333@gmail.com
+- 姓名：Muxin001
+- GitHub ID：muxin-web3
+- Telegram：muxin_eth
+- Email：muxin333333@gmail.com
 
 ## 发起组织
 
