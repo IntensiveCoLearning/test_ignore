@@ -2,15 +2,15 @@
 
 ## 介绍
 
-介绍内容
+共学内容
 
 ## 关键词
 
-关键词内容
+测试
 
 ## 面向人群
 
-面向人群内容
+所有人
 
 ## 报名时间
 
@@ -31,7 +31,9 @@
 
 ## 发起组织
 
-残酷共学发起组织方，可以是多个
+  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://cdn.lxdao.io/bafkreiay6vxsvv3ksxr75lzzt3iqy3zja3o2epuxh47ivs24p2xs3awexm.png" />
+
+
 
 ## 请假规则
 
@@ -39,19 +41,25 @@
 
 ## 社群
 
-Telegram：
+Telegram：https://t.me/LXDAO/6215
 
 ## 学习资料/课程安排
 
-学习内容
+学习内容安排
+
+
 
 ## 共学激励
 
 打卡成功者福利：https://www.notion.so/lxdao/3eab258b4df44c9cb97319452b2be13b
 
+
+
 ## 更多信息
 
-更多信息内容
+更多信息内容xxxx
+
+
 
 ## 报名和打卡规则
 
