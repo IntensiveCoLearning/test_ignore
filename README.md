@@ -1,12 +1,12 @@
-# 测试共学
+# 测试共学001
 
 ## 介绍
 
-共学内容
+共学内容xxxx
 
 ## 关键词
 
-测试
+test
 
 ## 面向人群
 
@@ -14,24 +14,24 @@
 
 ## 报名时间
 
-- 报名开始时间：2025-06-17
-- 报名结束时间：2025-06-24
+- 报名开始时间：2025-06-242025-06-17
+- 报名结束时间：2025-06-282025-06-24
 
 ## 共学时间
 
-- 共学开始时间：2025-06-25
-- 共学结束时间：2025-07-16
+- 共学开始时间：2025-07-012025-06-25
+- 共学结束时间：2025-07-082025-07-16
 
 ## 发起人
 
-- 姓名：Muxin
-- GitHub ID：muxin-web3
-- Telegram：muxin_eth
-- Email：muxin333333@gmail.com
+- 姓名：Muxin001Muxin
+- GitHub ID：muxin-web3muxin-web3
+- Telegram：muxin_ethmuxin_eth
+- Email：muxin333333@gmail.commuxin333333@gmail.com
 
 ## 发起组织
 
-  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://cdn.lxdao.io/bafkreiay6vxsvv3ksxr75lzzt3iqy3zja3o2epuxh47ivs24p2xs3awexm.png" />
+  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://avatars.githubusercontent.com/u/167147327?s=200&v=4" />
 
 
 
@@ -45,7 +45,7 @@ Telegram：https://t.me/LXDAO/6215
 
 ## 学习资料/课程安排
 
-学习内容安排
+学习内容安排xxxx
 
 
 
