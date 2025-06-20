@@ -122,7 +122,7 @@ jobs:
             core.setOutput('user_plan', userPlan);
             core.setOutput('issue_body', issue.body);
 
-                  - name: Create user markdown file
+      - name: Create user markdown file
         env:
           GITHUB_ID: ${{ steps.extract-info.outputs.github_id }}
           USER_NAME: ${{ steps.extract-info.outputs.user_name }}
@@ -140,7 +140,7 @@ jobs:
             exit 0
           fi
 
-                    # Get current date
+          # Get current date
           CURRENT_DATE=$(date +%Y.%m.%d)
 
           # Create the markdown file with formatted content based on template
