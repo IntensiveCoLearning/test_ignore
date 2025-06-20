@@ -7,7 +7,6 @@ on:
 permissions:
   contents: write
   issues: write
-  administration: write
 
 jobs:
   process-signup:
@@ -97,21 +96,18 @@ jobs:
             }
 
             // Extract information from issue body for creating user file
-            const nameMatch = issue.body.match(/\*\*姓名\/昵称:\*\*\s*([^\n]+)/i) || 
-                             issue.body.match(/\*\*姓名\*\*\s*([^\n]+)/i) ||
-                             issue.body.match(/姓名[\/:]?\s*([^\n]+)/i);
-            const timezoneMatch = issue.body.match(/\*\*时区:\*\*\s*([^\n]+)/i) ||
-                                 issue.body.match(/时区[:]?\s*([^\n]+)/i);
-            const contactMatch = issue.body.match(/\*\*联系方式:\*\*\s*([^\n]+)/i) ||
-                                issue.body.match(/联系方式[:]?\s*([^\n]+)/i);
-            const introMatch = issue.body.match(/## 自我介绍([\s\S]*?)(?=##|$)/i);
-            const planMatch = issue.body.match(/## 学习计划([\s\S]*?)(?=##|---|\*\*注意|$)/i);
+            const nameMatch = issue.body.match(/\*\*(?:姓名|Name)[\s:：]*\*\*\s*([^\n]+)/i) || 
+                             issue.body.match(/(?:姓名|Name)[\s:：]+([^\n]+)/i);
+            const timezoneMatch = issue.body.match(/\*\*(?:时区|Timezone)[\s:：]*\*\*\s*([^\n]+)/i) ||
+                                 issue.body.match(/(?:时区|Timezone)[\s:：]+([^\n]+)/i);
+            const contactMatch = issue.body.match(/\*\*(?:Telegram)[\s:：]*\*\*\s*([^\n]+)/i) ||
+                                issue.body.match(/(?:Telegram)[\s:：]+([^\n]+)/i);
+            const introMatch = issue.body.match(/##\s*(?:自我介绍|Self-introduction)\s*([\s\S]*?)(?=##|$)/i);
 
             const userName = nameMatch ? nameMatch[1].trim() : githubId;
             const userTimezone = timezoneMatch ? timezoneMatch[1].trim() : 'UTC+8';
             const userContact = contactMatch ? contactMatch[1].trim() : '';
             const userIntro = introMatch ? introMatch[1].trim() : '';
-            const userPlan = planMatch ? planMatch[1].trim() : '';
 
             // Set output for next step
             core.setOutput('github_id', githubId);
@@ -119,7 +115,6 @@ jobs:
             core.setOutput('user_timezone', userTimezone);
             core.setOutput('user_contact', userContact);
             core.setOutput('user_intro', userIntro);
-            core.setOutput('user_plan', userPlan);
             core.setOutput('issue_body', issue.body);
 
       - name: Create user markdown file
@@ -129,7 +124,6 @@ jobs:
           USER_TIMEZONE: ${{ steps.extract-info.outputs.user_timezone }}
           USER_CONTACT: ${{ steps.extract-info.outputs.user_contact }}
           USER_INTRO: ${{ steps.extract-info.outputs.user_intro }}
-          USER_PLAN: ${{ steps.extract-info.outputs.user_plan }}
         run: |
           # Create filename
           FILENAME="${GITHUB_ID}.md"
@@ -160,10 +154,6 @@ jobs:
           ## 自我介绍
 
           ${USER_INTRO}
-
-          ## 学习计划
-
-          ${USER_PLAN}
 
           ## Notes
 
