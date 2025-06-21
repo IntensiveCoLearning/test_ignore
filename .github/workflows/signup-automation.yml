@@ -143,15 +143,13 @@ jobs:
           timezone: ${USER_TIMEZONE}
           ---
 
-          > 请在上边的 timezone 添加你的当地时区(UTC)，这会有助于你的打卡状态的自动化更新，如果没有添加，默认为北京时间 UTC+8 时区
-
           # ${USER_NAME}
 
           **GitHub ID:** ${GITHUB_ID}
 
-          **联系方式:** ${USER_CONTACT}
+          **Telegram:** ${USER_CONTACT}
 
-          ## 自我介绍
+          ## Self-introduction
 
           ${USER_INTRO}
 
@@ -161,7 +159,6 @@ jobs:
 
           ### ${CURRENT_DATE}
 
-          开始学习！
 
           <!-- Content_END -->
           EOF
