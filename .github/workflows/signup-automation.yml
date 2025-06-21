@@ -102,7 +102,8 @@ jobs:
                                  issue.body.match(/(?:时区|Timezone)[\s:：]+([^\n]+)/i);
             const contactMatch = issue.body.match(/\*\*(?:Telegram)[\s:：]*\*\*\s*([^\n]+)/i) ||
                                 issue.body.match(/(?:Telegram)[\s:：]+([^\n]+)/i);
-            const introMatch = issue.body.match(/##\s*(?:自我介绍|Self-introduction)\s*([\s\S]*?)(?=##|$)/i);
+            const introMatch = issue.body.match(/\*\*(?:自我介绍|Self-introduction)[\s:：]*\*\*\s*([^\n]+)/i) ||
+                                issue.body.match(/(?:自我介绍|Self-introduction)[\s:：]+([^\n]+)/i);
 
             const userName = nameMatch ? nameMatch[1].trim() : githubId;
             const userTimezone = timezoneMatch ? timezoneMatch[1].trim() : 'UTC+8';
