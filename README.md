@@ -94,7 +94,9 @@ Telegram：https://t.me/LXDAO/6215
 | Name | 7.02 | 7.03 | 7.04 | 7.05 | 7.06 | 7.07 | 7.08 | 7.09 | 7.10 | 7.11 | 7.12 | 7.13 | 7.14 |
 | ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [SIGNUP_AUTOMATION](https://github.com/IntensiveCoLearning/test_ignore/blob/main/SIGNUP_AUTOMATION.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [muxin-web3](https://github.com/IntensiveCoLearning/test_ignore/blob/main/muxin-web3.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
