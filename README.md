@@ -95,8 +95,9 @@ Telegram：https://t.me/LXDAO/6215
 | ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [SIGNUP_AUTOMATION](https://github.com/IntensiveCoLearning/test_ignore/blob/main/SIGNUP_AUTOMATION.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [muxin-web3](https://github.com/IntensiveCoLearning/test_ignore/blob/main/muxin-web3.md) |  ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ |
-| [brucexu-eth](https://github.com/IntensiveCoLearning/test_ignore/blob/main/brucexu-eth.md) |  ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ | ⭕️ |
+| [brucexu-eth](https://github.com/IntensiveCoLearning/test_ignore/blob/main/brucexu-eth.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
